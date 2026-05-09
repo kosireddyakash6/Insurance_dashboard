@@ -80,16 +80,19 @@ Policy Type
 Total premium vs payout overview
 Expense vs revenue snapshot
 Business health indicators
+
 2️⃣ Policy Performance Analysis
 
 Policy-wise ROI comparison
 High vs low performing insurance products
 Long-term vs short-term profitability
+
 3️⃣ Investment vs Maturity Analysis
 
 Premium paid vs maturity value trends
 ROI performance over time
 Customer investment return behavior
+
 4️⃣ Sales Hierarchy Performance
 
 Zonal → Regional → Agent-level breakdown
