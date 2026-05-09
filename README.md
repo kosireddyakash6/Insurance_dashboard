@@ -7,21 +7,30 @@
 Insurance companies face challenges in:
 
 Tracking premium collection efficiency
+
 Understanding policy profitability
+
 Monitoring ROI across policy types
+
 Managing agent-level performance
+
 Reducing underwriting inefficiencies
 
 Lack of unified visibility leads to revenue leakage and poor product strategy decisions.
+
 
 **🎯 Project Objective**
 
 Built an end-to-end Power BI financial analytics solution to:
 
 Monitor premium vs payout performance
+
 Analyze policy profitability (ROI & CAGR)
+
 Evaluate agent and regional sales efficiency
+
 Identify high and low-performing insurance products
+
 Enable data-driven financial decision-making
 
 
@@ -31,39 +40,58 @@ Power BI | SQL | DAX | Power Query | Star Schema Data Modeling
 
 **📊 Key Business KPIs**
 Total Premium (Paid / Payable)
+
 Maturity Value
+
 ROI (Return on Investment)
+
 CAGR (Compound Growth Rate)
+
 Underwriting Expense Ratio
+
 Agent Contribution %
 
 **🧠 Data Model**
 Star Schema architecture
+
 Fact Table: Insurance Policy Transactions
+
 Dimension Tables:
+
 Customer
+
 Policy
+
 Agent
+
 Region Manager
+
 Policy Type
+
 
 ✔ Optimized for performance and scalable reporting
 ✔ Reduced redundancy using dimensional modeling
 
 **📈 Dashboard Modules (Executive Summary)**
+
+
 1️⃣ Executive KPI Dashboard
+
 Total premium vs payout overview
 Expense vs revenue snapshot
 Business health indicators
 2️⃣ Policy Performance Analysis
+
 Policy-wise ROI comparison
 High vs low performing insurance products
 Long-term vs short-term profitability
 3️⃣ Investment vs Maturity Analysis
+
 Premium paid vs maturity value trends
 ROI performance over time
 Customer investment return behavior
 4️⃣ Sales Hierarchy Performance
+
 Zonal → Regional → Agent-level breakdown
 Top performing agents by revenue
 Contribution analysis across regions
@@ -77,6 +105,7 @@ Contribution analysis across regions
 ✔ Top ~20% agents contribute disproportionately to total premium revenue, indicating high dependency on a small performance cluster.
 
 ✔ Underwriting expense ratio varies significantly across policy types, directly impacting net profitability in lower-performing segments.
+
 
 **💡 Business Recommendations**
 
