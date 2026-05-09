@@ -2,6 +2,8 @@
 
 **🧠 Business Problem**
 
+🧠 This analysis identifies key inefficiencies in insurance portfolio management, highlighting profitability variation across policy types, agent performance imbalance, and underwriting cost leakage affecting overall financial efficiency.
+
 Insurance companies face challenges in:
 
 Tracking premium collection efficiency
@@ -68,13 +70,13 @@ Contribution analysis across regions
 
 **🔍 Key Business Insights**
 
-✔ Certain policy types generate up to 30–40% higher ROI, indicating strong product profitability variation.
+✔ Certain policy types generate up to 30–40% higher ROI, indicating strong variation in product profitability and potential for portfolio optimization.
 
-✔ Long-term policies (10–20 years) show more stable maturity returns but lower short-term cash flow efficiency.
+✔ Long-term policies (10–20 years) deliver stable maturity returns but reduce short-term liquidity efficiency, impacting cash flow planning.
 
-✔ A small percentage of agents contribute a disproportionately high share of total premiums (~top 20% agents drive majority revenue).
+✔ Top ~20% agents contribute disproportionately to total premium revenue, indicating high dependency on a small performance cluster.
 
-✔ Underwriting expense ratio varies significantly across policy types, impacting net profitability.
+✔ Underwriting expense ratio varies significantly across policy types, directly impacting net profitability in lower-performing segments.
 
 **💡 Business Recommendations**
 
@@ -92,11 +94,16 @@ Allocate sales resources based on region-level premium contribution trends.
 
 **📊 Business Impact**
 
-Improved visibility into insurance profitability drivers
-Enhanced decision-making for product strategy
-Better agent performance tracking system
-Data-driven financial planning framework
+✔ Improved visibility into profitability drivers across insurance products and policies
+
+✔ Identified high-revenue dependency on top-performing agents (~20% contribution concentration)
+
+✔ Enabled data-driven portfolio optimization to improve ROI and reduce inefficient product exposure
+
+✔ Provided structured financial analytics framework for better underwriting and policy strategy decisions
 
 **🧠 Tools Used**
 
 Power BI | SQL | DAX | Power Query | Data Modeling | KPI Reporting
+
+📌 Executive Summary: This project demonstrates a complete financial analytics workflow by transforming raw insurance policy data into actionable insights for profitability optimization, agent performance tracking, and portfolio decision-making—similar to enterprise BI systems used in insurance companies.
