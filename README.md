@@ -166,3 +166,5 @@ RANKX(
 2. **Close the Premium Payable Realization Gap:** Out of a 39.09B total premium baseline, an oversized **28.41B remains outstanding in payable accounts**. **Action:** Incentivize digital autopay setups by offering small premium discounts (0.5%–1%) to convert slow manual invoicing cycles into predictable automatic cash inflows.
 3. **Address Sales Hierarchy Production Variances:** Cross-filtering the hierarchical leaderboard highlights that key regional hubs under specific managers generate a large share of annual volumes, while others lag. **Action:** Standardize the sales techniques used by top producers like *Baiju Singh* and *Divij Malhotra* into a mandatory training playbook to lift baseline performance across underperforming regional teams.
 4. **Rebalance the Product Mix Allocation:** Revenue contributions are evenly split across Endowment, Whole, and Universal policies. **Action:** Since market demand is balanced, focus marketing spend on the specific policy tiers that demonstrate the lowest historical underwriting expenses to maximize net profitability.
+## **Author** 
+Kosireddy Akash | Data Analyst | Python • SQL • Power BI Analytics
