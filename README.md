@@ -40,9 +40,14 @@ Relational associations utilize strict **Many-to-One (`*:1`) Cardinality** mappi
 The backend data pipeline was built entirely within the cloud-native **Microsoft Fabric Ecosystem** to automate data processing and eliminate manual maintenance loops:
 
 * **Data Integration Pipeline:** Developed an automated **Fabric Refresh_Pipeline** that orchestrates data movement smoothly.
-* **Dataflow Transformation Layer:** Ingested raw operational source files into an **Insurance Dataflow** engine. Transformations included removing dirty text headers, casting exact currency formatting types across financial metrics, and handling structural missing values.
-* **Semantic Refresh Automation:** Configured a successful downstream link connecting the completed dataflow directly to an automated **Semantic Model Refresh trigger**.
-* **Orchestration Scheduling:** Scheduled a **Fixed Daily Refresh Loop** running on a 1-month recurrence interval, synchronized to local corporate time zones `(UTC+05:30) Chennai, Kolkata, Mumbai`. This cloud architecture successfully saves analysts **3–4 hours of manual effort weekly**.
+## **3. Data Sources & Automated ETL Pipeline**
+The backend data architecture leverages the cloud-native **Microsoft Fabric Ecosystem** to automate complex data processing tasks, eliminate manual maintenance loops, and maintain an institutional single source of truth:
+
+* **Dataflow Transformation Layer (Dataflows Gen2):** Raw operational source files are ingested, staged, and clean-transformed using an engineered **Insurance Dataflow** framework running on the Fabric Dataflows Gen2 engine. The structural preparation layer automates critical data cleansing actions—including the removal of corrupted text headers, the mitigation of structural missing values/nulls, and the casting of strict currency formatting datatypes across all financial premium rows.
+* **Data Integration Pipeline:** End-to-end processing orchestration is managed natively via a **Fabric Data Pipeline** explicitly designated as `Refresh_Pipeline`. As visually documented in the active workflow orchestration map, the pipeline enforces a strict sequential dependency chain: a verified successful execution of the upstream **Insurance Dataflow** activities automatically activates the downstream **Semantic model refresh** trigger for the `Insurance Model`.
+* **Automated Schedule Orchestration:** To establish full hands-free execution, the pipeline relies on an active scheduler assigned to a **Fixed Schedule Type**. The process runner is configured to trigger on a **Daily** repeat cadence mapped across a **1 Month(s)** interval parameter loop. The lifecycle boundary is defined between a **Start date** of `21-05-2026` and an **End date** of `21-05-2027`, strictly locked to the regional corporate time zone of `(UTC+05:30) Chennai, Kolkata, Mumbai`.
+
+> **Business Impact:** This automated Microsoft Fabric engineering framework fully hands-off updates the entire Power BI semantic layer. By replacing broken manual workflows with automated cloud orchestration, the architecture successfully saves data analysts an estimated **3–4 hours of manual compilation effort every week**.
 
 ---
 
