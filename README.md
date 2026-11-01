@@ -1,6 +1,6 @@
 
 
-# **TRUSECURE INSURANCE BUSINESS PERFORMANCE DASHBOARD**
+# **Insurance Portfolio Churn & Risk Mitigation Analytics — Power BI | Microsoft Fabric | DAX**
 
 ## **1. Business Problem Understanding**
 
